@@ -1,0 +1,15 @@
+[project]
+name = "Leistungstest"
+version = "1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Tamira1321", email = "gt6567@mci4me.at"},
+]
+dependencies = ["numpy>=2.0.2", "pandas>=2.2.3"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
