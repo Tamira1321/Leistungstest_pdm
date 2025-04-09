@@ -3,7 +3,7 @@ from my_classes import Subject, Supervisor, Experiment
 if __name__ == "__main__":
 
     # Erstellen eines Leistungstests
-    supervisor = Supervisor("FirstName", "LastName")
+    supervisor = Supervisor("Sophia", "Österle")
     subject = Subject("FirstName", "LastName", "female", 30)
     subject.estimate_max_hr()
 
